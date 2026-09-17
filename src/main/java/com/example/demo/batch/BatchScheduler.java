@@ -10,7 +10,7 @@ public class BatchScheduler {
 
     private static final Logger log = LoggerFactory.getLogger(BatchScheduler.class);
 
-    @Scheduled(fixedRate = 10000)
+    @Scheduled(fixedRate = 50000)
     public void run() {
         log.info("バッチ実行！！！");
     }
